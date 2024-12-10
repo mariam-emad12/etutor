@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- <link rel="stylesheet" href="./Style/all.min.css">
+    <link rel="stylesheet" href="./Style/bootstrap.min.css">
+    <link rel="stylesheet" href="./Style/normalize.css"> -->
+    <!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="./Style/main.css">
+    <title>E-Tutor</title>
+</head>
+<body>
+    <section id="header">
+    <div class="navbar">
+        <div class="top-nav">
+           <div class="left">
+            <div class="nav-item" style="color: #fff;">Home</div>
+            <div class="nav-item">Courses</div>
+            <div class="nav-item">About</div>
+            <div class="nav-item">Contact</div>
+            <div class="nav-item">Become an Instructor</div>
+           </div>
+           <div class="right">
+           <div class="nav-item">USD</div>
+           <div class="nav-item">English</div>
+           </div>
+        </div>
+        <div class="bottom-nav">
+          <div class="left">
+            <div class="logo"><img src="./Assets/GraduationCap.png" alt="" width="40px" height="40px"> <h1>E-tutor</h1></div>
+          <input class="browse" type="text" placeholder="Browse">
+          <input class="search" type="text" placeholder="What do you want learn...">
+          </div>
+          <div class="right">
+            <div class="icons">
+                <img src="./Assets/Bell.png" alt="" width="24px" height="24px">
+                <img src="./Assets/Heart.png" alt="" width="24px" height="24px">
+                <img src="./Assets/Vector.png" alt="" width="24px" height="24px">
+            </div>
+            <button class="create-account">Create Account</button>
+             <button class="sign-in">Sign In</button>
+          </div>
+        </div>
+    </div>
+
+    <div class="header-content">
+      <div class="content">
+             <h2>Learn with expert anytime anywhere</h2>
+             <p>Our mision is to help people to find the best course online and learn with expert anytime, anywhere.</p>
+             <button class="create-account">Create Account</button>
+      </div>
+     
+       <img src="./Assets/nav-img.jpeg"  width="700px" height="500px" alt=".">
+    </div>
+
+</section>
+
+
+<section id="top-category" class="container">
+    <h2>Browse top category</h2>
+    <div class="categories">
+         <div class="category-item" style="  background-color: var(--secondary-100)">
+        <i class="fa-solid fa-microchip" style=" color: var(--secondary-500);"></i>
+           <div>
+                 <div class="cat-item-name">Label</div>
+                 <p class="cat-item-desc">63,476 Courses</p>
+            </div>
+    </div>
+    <div class="category-item"  style="background-color: var(--success-100)" >
+        <i class="fa-regular fa-handshake" style="color: var(--success-500);"></i>
+           <div>
+                 <div class="cat-item-name">Business</div>
+                 <p class="cat-item-desc">52,822 Courses</p>
+            </div>
+    </div>
+    <div class="category-item" style="background-color: var(--warning-100)">
+      <i class="fa-solid fa-credit-card" style="color: var(--warning-500);"></i>
+           <div>
+                 <div class="cat-item-name">Finance & Accounting</div>
+                 <p class="cat-item-desc">33,841 Courses</p>
+            </div>
+    </div>
+    <div class="category-item" style="background-color: var(--error-100);">
+        <i class="fa-solid fa-chart-bar" style="color: var(--error-500);"></i>
+           <div>
+                 <div class="cat-item-name">IT & Software</div>
+                 <p class="cat-item-desc">22,649 Courses</p>
+            </div>
+    </div>
+    <div class="category-item" style="background-color: var( --grey-white) ; box-shadow: 0px 1px 3px 0px #c3bdbd ;">
+      <i class="fa-brands fa-android" style="color:var(--grey-white); background-color: var(--primary-500-main);"></i>
+           <div>
+                 <div class="cat-item-name">Personal Development</div>
+                 <p class="cat-item-desc">20,126 Courses</p>
+            </div>
+    </div>
+    <div class="category-item" style="background-color: var(--grey-50);">
+        <i class="fa-solid fa-receipt" style="color: var(--grey-400);"></i>
+           <div>
+                 <div class="cat-item-name">Office Productivity</div>
+                 <p class="cat-item-desc">13,932 Courses</p>
+            </div>
+    </div>
+    <div class="category-item" style="background-color: var(--secondary-100);">
+       <i class="fa-solid fa-bullhorn fa-flip-horizontal" style="color: var(--secondary-500);"></i>
+           <div>
+                 <div class="cat-item-name">Marketing</div>
+                 <p class="cat-item-desc">12,068 Courses</p>
+            </div>
+    </div>
+    <div class="category-item" style="background-color: var(--grey-50);">
+       <i class="fa-solid fa-camera" style="color: var(--grey-900);"></i>
+           <div>
+                 <div class="cat-item-name">Photography & Video</div>
+                 <p class="cat-item-desc">6,196 Courses</p>
+            </div>
+    </div>
+    <div class="category-item" style="background-color: var(--warning-100);">
+      <i class="fa-solid fa-cube" style="color: var(--warning-500);"></i>
+           <div>
+                 <div class="cat-item-name">Lifestyle</div>
+                 <p class="cat-item-desc">63,476 Courses</p>
+            </div>
+    </div>
+    <div class="category-item" style="background-color: var(--primary-100);">
+        <i class="fa-solid fa-pen-nib" style="color: var(--primary-500-main);"></i>
+           <div>
+                 <div class="cat-item-name">Design</div>
+                 <p class="cat-item-desc">2,600 Courses</p>
+            </div>
+    </div>
+    <div class="category-item" style="background-color: var(--success-100);">
+        <i class="fa-solid fa-briefcase-medical" style="color: var(--success-500);"></i>
+           <div>
+                 <div class="cat-item-name">Health & Fitness</div>
+                 <p class="cat-item-desc">1,678 Courses</p>
+            </div>
+    </div>
+    <div class="category-item" style="background-color: var(--warning-100);">
+       <i class="fa-solid fa-headphones" style="color:var(--warning-500);"></i>
+           <div>
+                 <div class="cat-item-name">Music</div>
+                 <p class="cat-item-desc">959 Courses</p>
+            </div>
+    </div>
+    </div>
+  <div style=" display: flex; justify-content: center; padding: 50px 0px; align-items: center;">
+    <div style="color: var(--grey-700); font-size: 15px;">We have more category & subcategory. </div>
+    <a href="#" style="padding-left: 20px; text-decoration: none; color: var(--primary-500-main);"> Browse All <i class="fa-solid fa-arrow-right" style="color: var(--primary-500-main) ;font-size: 20px; "></i></a>
+  </div>
+
+         
+</section>
+ 
+
+<section id="best-selling">
+    <h2>Best Selling Course</h2>
+    <div class="cards-container">
+        <div class="my-card">
+              <img src="./Assets/Course Images.png" alt="..." >
+              <div class="my-card-body">
+                <div class="name-price"><div class="cat-card-name" style="background-color: var(--primary-100); color: var(--primary-700);">DESIGN</div> <span>$57</span></div>
+                <p class="card-text">Machine Learning A-Z™: Hands-On Python & R In Data...</p>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0</span></div>
+                  <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+
+              </div>
+        </div>
+
+        <div class="my-card">
+              <img src="./Assets/Course Images (1).png" alt="..." >
+              <div class="my-card-body">
+                <div class="name-price"><div class="cat-card-name" style="background-color: var(--secondary-100); color: var(--secondary-700);">Developments</div> <span>$57</span></div>
+                <p class="card-text">The Complete 2021 Web Development Bootcamp</p>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0</span></div>
+                  <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+
+              </div>
+        </div>
+
+
+        <div class="my-card">
+              <img src="./Assets/Course Images (2).png" alt="..." >
+              <div class="my-card-body">
+                <div class="name-price"><div class="cat-card-name"style="background-color: var(--success-100); color: var(--success-700);" >Business</div> <span>$57</span></div>
+                <p class="card-text">Learn Python Programming Masterclass</p>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0</span></div>
+                  <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+
+              </div>
+        </div>
+
+
+        <div class="my-card">
+              <img src="./Assets/Course Images (3).png" alt="..." >
+              <div class="my-card-body">
+                <div class="name-price"><div class="cat-card-name" style="background-color: var(--secondary-100); color: var(--secondary-700);">Marketing</div> <span>$57</span></div>
+                <p class="card-text">The Complete Digital Marketing Course - 12 Courses in 1</p>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0</span></div>
+                  <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+
+              </div>
+        </div>
+
+
+        <div class="my-card">
+              <img src="./Assets/Course Images (4).png" alt="..." >
+              <div class="my-card-body">
+                <div class="name-price"><div class="cat-card-name" style="background-color: var(--error-100); color: var(--error-700);">IT & Software</div> <span>$57</span></div>
+                <p class="card-text">Reiki Level I, II and Master/Teacher Program</p>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0</span></div>
+                  <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+
+              </div>
+        </div>
+
+
+
+        <div class="my-card">
+              <img src="./Assets/Course Images (5).png" alt="..." >
+              <div class="my-card-body">
+                <div class="name-price"><div class="cat-card-name" style="background-color: var(--warning-100); color: var(--warning-700);">Music</div> <span>$57</span></div>
+                <p class="card-text">The Complete Foundation Stock Trading Course</p>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0</span></div>
+                  <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+
+              </div>
+        </div>
+
+
+
+        <div class="my-card">
+              <img src="./Assets/Course Images (6).png" alt="..." >
+              <div class="my-card-body">
+                <div class="name-price"><div class="cat-card-name" style="background-color: var(--secondary-100); color: var(--secondary-700);">Marketing</div> <span>$57</span></div>
+                <p class="card-text">Beginner to Pro in Excel: Financial Modeling and Valuati...</p>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0</span></div>
+                  <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+
+              </div>
+        </div>
+
+
+
+        <div class="my-card">
+              <img src="./Assets/Course Images (7).png" alt="..." >
+              <div class="my-card-body">
+                <div class="name-price"><div class="cat-card-name" style="background-color: var(--success-100); color: var(--success-700);">Health & Fitness</div> <span>$57</span></div>
+                <p class="card-text">The Python Mega Course: Build 10 Real World Applications</p>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0</span></div>
+                  <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+
+              </div>
+        </div>
+
+
+
+        <div class="my-card">
+              <img src="./Assets/Course Images (8).png" alt="..." >
+              <div class="my-card-body">
+                <div class="name-price"><div class="cat-card-name" style="background-color: var(--primary-100); color: var(--primary-700);">DESIGN</div> <span>$57</span></div>
+                <p class="card-text">Copywriting - Become a Freelance Copywriter, your ow...</p>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0</span></div>
+                  <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+
+              </div>
+        </div>
+
+
+
+        <div class="my-card">
+              <img src="./Assets/Course Images (9).png" alt="..." >
+              <div class="my-card-body">
+                <div class="name-price"><div class="cat-card-name" style="background-color: var(--warning-100); color: var(--warning-700);">Lifestyle</div> <span>$57</span></div>
+                <p class="card-text">Google Analytics Certification - Learn How To Pass The Exam</p>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0</span></div>
+                  <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+
+              </div>
+        </div>
+
+    </div>
+</section>
+<!-- --------------------------------------------- -->
+<section id="feature-courses">
+    <div class="heading">
+        <h2>Our feature courses</h2>
+        <p>Vestibulum sed dolor sed diam mollis maximus vel nec dolor. Donec varius purus et eleifend porta.</p>
+    </div>
+    <div class="feature-items">
+        <div class="feature-item" >
+            
+            <div class="card-content">
+                 <div class="name-price"><div class="cat-card-name" style="background-color: var(--success-100); color: var(--success-700); ">Health & Fitness</div> <div><span>$14.00</span> <span><del> $26.00</del></span></div></div>
+                 <p>Investing In Stocks The Complete Course! (13 H... </p>
+                 <div class="user-rate"> 
+                    <div class="user"><img src="./Assets/user.jpeg" alt=""> <h6>Kevin Gilbert</h6></div>
+                    <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0 (357,914)</span></div>
+                   
+                </div>
+                  <hr style="background-color: var(--grey-100); height: 1px; border: none;">         
+               <div class="icons-feature">
+                 <div><i class="fa-regular fa-user" style="color: var(--secondary-500);"></i>   <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div></div>
+                 <div><i class="fa-solid fa-chart-column" style="color: var(--error-500);"></i>  Begginer</div>
+                 <div><i class="fa-regular fa-clock" style="color: var(--success-500);"></i> 6 hour</div>
+               </div>
+                
+            </div>
+        </div>
+
+        <div class="feature-item" >
+           
+            <div class="card-content">
+                 <div class="name-price"><div class="cat-card-name" style="background-color: var(--primary-100); color: var(--primary-700);">Personal Development</div> <div><span>$14.00</span> <span><del> $26.00</del></span></div></div>
+                 <p>Google Analytics Certification - Learn How To...</p> 
+                 <div class="user-rate"> 
+                    <div class="user"><img src="./Assets/user.jpeg" alt=""> <h6>Kevin Gilbert</h6></div>
+                    <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0 (357,914)</span></div>
+                   
+                </div>
+                 <hr style="background-color: var(--grey-100); height: 1px; border: none;">          
+                <div class="icons-feature">
+                 <div><i class="fa-regular fa-user" style="color: var(--secondary-500);"></i>   <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div></div>
+                 <div><i class="fa-solid fa-chart-column" style="color: var(--error-500);"></i>  Begginer</div>
+                 <div><i class="fa-regular fa-clock" style="color: var(--success-500);"></i> 6 hour</div>
+               </div>
+                
+            </div>
+        </div>
+
+        <div class="feature-item" >
+           
+            <div class="card-content" >
+                 <div class="name-price"><div class="cat-card-name" style="background-color: var(--grey-100); color: var(--grey-700);">Productivity</div> <div><span>$14.00</span> <span><del> $26.00</del></span></div></div>
+                 <p style="color: var(--primary-500-main);">Adobe XD for Web Design: Essential Principles</p>
+                 <div class="user-rate"> 
+                    <div class="user"><img src="./Assets/user.jpeg" alt=""> <h6>Kevin Gilbert</h6></div>
+                    <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0 (357,914)</span></div>
+                   
+                </div>
+                 <hr style="background-color: var(--grey-100); height: 1px; border: none;">          
+ <div class="icons-feature">
+                 <div><i class="fa-regular fa-user" style="color: var(--secondary-500);"></i>   <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div></div>
+                 <div><i class="fa-solid fa-chart-column" style="color: var(--error-500);"></i>  Begginer</div>
+                 <div><i class="fa-regular fa-clock" style="color: var(--success-500);"></i> 6 hour</div>
+               </div>                
+            </div>
+        </div>
+
+        <div class="feature-item" >
+            
+            <div class="card-content">
+                 <div class="name-price"><div class="cat-card-name" style="background-color: var(--warning-100); color: var(--warning-700);">Music</div> <div><span>$14.00</span> <span><del> $26.00</del></span></div></div>
+                 <p>The Python Mega Course: Build 10 Real World ... </p>
+                 <div class="user-rate"> 
+                    <div class="user"><img src="./Assets/user.jpeg" alt=""> <h6>Kevin Gilbert</h6></div>
+                    <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>  5.0 (357,914)</span></div>
+                </div>
+                    <hr style="background-color: var(--grey-100); height: 1px; border: none;">   
+                     <div class="icons-feature">
+                 <div><i class="fa-regular fa-user" style="color: var(--secondary-500);"></i>   <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div></div>
+                 <div><i class="fa-solid fa-chart-column" style="color: var(--error-500);"></i>  Begginer</div>
+                 <div><i class="fa-regular fa-clock" style="color: var(--success-500);"></i> 6 hour</div>
+               </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="recently-added">
+    <h2>Recently added courses</h2>
+     <div class="cards-container">
+        
+        <div class="my-card">
+              <img src=".//Assets/best1.png" alt="..."  style="width: 244px; height: 200px; padding-bottom: 14px;">
+              <div class="my-card-body">
+                <div class="name-price"><div class="cat-card-name" style="background-color: var(--primary-100); color: var(--primary-700);">DESIGN</div> <span>$57</span></div>
+                <p class="card-text">The Python Mega Course: Build 10 Real World Applications</p>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0</span></div>
+                  <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+
+              </div>
+              <div class="cart">
+                <div class="name-price"><div class="cat-card-name" style="background-color: var(--primary-100); color: var(--primary-700); margin-top: 20px;">DESIGN</div></div>
+                 <p class="card-text">2021 Complete Python Bootcamp From Zero to Hero in Python</p>
+                 <div class="user-rate"> 
+                    <div class="user"><img src="./Assets/my-user.jpeg" alt=""> <h6>Kevin Gilbert</h6></div>
+                    <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0 (357,914)</span></div>
+                </div>
+                 <div class="icons-feature">
+                 <div><i class="fa-regular fa-user" style="color: var(--secondary-500);"></i>   <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div></div>
+                 <div><i class="fa-solid fa-chart-column" style="color: var(--error-500);"></i>  Begginer</div>
+                 <div><i class="fa-regular fa-clock" style="color: var(--success-500);"></i> 6 hour</div>
+               </div>
+               <div class="discount">
+                <div class="discount"><span style="color: var(--grey-900); font-size: 18px; ">$14.00</span>
+                <span><del style="color: var(--grey-500); font-size: 14px; ">$26.00</del></span>
+                <div class="off-56">56% OFF</div></div>
+                <div><i class="fa-regular fa-heart" style="padding: 10px; background-color: var(--primary-100); color: var(--primary-500-main); margin-right: 10px; margin-bottom: 6px;"></i></div>
+               </div>
+               <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+
+               <div class="what-learn">
+                <p class="head">What you’ll learn</p>
+                <div class="learn-item"><i class="fa-solid fa-check"></i><p>Learn to use Python professionally, learning both Python 2 and Python 3!</p></div>
+                <div class="learn-item"><i class="fa-solid fa-check"></i><p>Create games with Python, like Tic Tac Toe and Blackjack!</p></div>
+                <div class="learn-item"><i class="fa-solid fa-check"></i><p>Create games with Python, like Tic Tac Toe and Blackjack!</p></div>
+               </div>
+               <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+             <div class="cart-btns">
+               <button class="cart-btn">
+                 <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+               </button>
+               <button class="cart-btn">
+                Course Detail
+               </button>
+             </div>
+              </div>
+              
+        </div>
+      
+         
+         <div class="my-card">
+              <img src="./Assets/Course Images (4).png" alt="..." style="width: 244px; height: 200px; padding-bottom: 14px;">
+              <div class="my-card-body">
+                <div class="name-price"><div class="cat-card-name" style="background-color: var(--error-100); color: var(--error-700);">IT & Software</div> <span>$57</span></div>
+                <p class="card-text">Facebook Ads & Facebook Marketing MASTERY 2021 Cours...</p>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0</span></div>
+                  <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+              </div>
+               <div class="cart">
+                <div class="name-price"><div class="cat-card-name" style="background-color: var(--primary-100); color: var(--primary-700); margin-top: 20px;">DESIGN</div></div>
+                 <p class="card-text">2021 Complete Python Bootcamp From Zero to Hero in Python</p>
+                 <div class="user-rate"> 
+                    <div class="user"><img src="./Assets/my-user.jpeg" alt=""> <h6>Kevin Gilbert</h6></div>
+                    <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0 (357,914)</span></div>
+                </div>
+                 <div class="icons-feature">
+                 <div><i class="fa-regular fa-user" style="color: var(--secondary-500);"></i>   <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div></div>
+                 <div><i class="fa-solid fa-chart-column" style="color: var(--error-500);"></i>  Begginer</div>
+                 <div><i class="fa-regular fa-clock" style="color: var(--success-500);"></i> 6 hour</div>
+               </div>
+               <div class="discount">
+                <div class="discount"><span style="color: var(--grey-900); font-size: 18px; ">$14.00</span>
+                <span><del style="color: var(--grey-500); font-size: 14px; ">$26.00</del></span>
+                <div class="off-56">56% OFF</div></div>
+                <div><i class="fa-regular fa-heart" style="padding: 10px; background-color: var(--primary-100); color: var(--primary-500-main); margin-right: 10px; margin-bottom: 6px;"></i></div>
+               </div>
+               <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+
+               <div class="what-learn">
+                <p class="head">What you’ll learn</p>
+                <div class="learn-item"><i class="fa-solid fa-check"></i><p>Learn to use Python professionally, learning both Python 2 and Python 3!</p></div>
+                <div class="learn-item"><i class="fa-solid fa-check"></i><p>Create games with Python, like Tic Tac Toe and Blackjack!</p></div>
+                <div class="learn-item"><i class="fa-solid fa-check"></i><p>Create games with Python, like Tic Tac Toe and Blackjack!</p></div>
+               </div>
+               <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+             <div class="cart-btns">
+               <button class="cart-btn">
+                 <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+               </button>
+               <button class="cart-btn">
+                Course Detail
+               </button>
+             </div>
+              </div>
+              
+        </div>
+         <div class="my-card">
+              <img src="./Assets/best3.png" alt="..." style="width: 244px; height: 200px; padding-bottom: 14px;">
+              <div class="my-card-body">
+                <div class="name-price"><div class="cat-card-name" style="background-color: var(--secondary-100); color: var(--secondary-700);">Developments</div> <span>$57</span></div>
+                <p class="card-text">2021 Complete Python Bootcamp From Zero to Hero in Python</p>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0</span></div>
+                  <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+              </div>
+              <div class="cart">
+                <div class="name-price"><div class="cat-card-name" style="background-color: var(--primary-100); color: var(--primary-700); margin-top: 20px;">DESIGN</div></div>
+                 <p class="card-text">2021 Complete Python Bootcamp From Zero to Hero in Python</p>
+                 <div class="user-rate"> 
+                    <div class="user"><img src="./Assets/my-user.jpeg" alt=""> <h6>Kevin Gilbert</h6></div>
+                    <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0 (357,914)</span></div>
+                </div>
+                 <div class="icons-feature">
+                 <div><i class="fa-regular fa-user" style="color: var(--secondary-500);"></i>   <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div></div>
+                 <div><i class="fa-solid fa-chart-column" style="color: var(--error-500);"></i>  Begginer</div>
+                 <div><i class="fa-regular fa-clock" style="color: var(--success-500);"></i> 6 hour</div>
+               </div>
+               <div class="discount">
+                <div class="discount"><span style="color: var(--grey-900); font-size: 18px; ">$14.00</span>
+                <span><del style="color: var(--grey-500); font-size: 14px; ">$26.00</del></span>
+                <div class="off-56">56% OFF</div></div>
+                <div><i class="fa-regular fa-heart" style="padding: 10px; background-color: var(--primary-100); color: var(--primary-500-main); margin-right: 10px; margin-bottom: 6px;"></i></div>
+               </div>
+               <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+
+               <div class="what-learn">
+                <p class="head">What you’ll learn</p>
+                <div class="learn-item"><i class="fa-solid fa-check"></i><p>Learn to use Python professionally, learning both Python 2 and Python 3!</p></div>
+                <div class="learn-item"><i class="fa-solid fa-check"></i><p>Create games with Python, like Tic Tac Toe and Blackjack!</p></div>
+                <div class="learn-item"><i class="fa-solid fa-check"></i><p>Create games with Python, like Tic Tac Toe and Blackjack!</p></div>
+               </div>
+               <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+             <div class="cart-btns">
+               <button class="cart-btn">
+                 <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+               </button>
+               <button class="cart-btn">
+                Course Detail
+               </button>
+             </div>
+              </div>
+        </div>
+         <div class="my-card">
+              <img src="./Assets/Course Images.png" alt="..." style="width: 244px; height: 200px; padding-bottom: 14px;">
+              <div class="my-card-body">
+                <div class="name-price"><div class="cat-card-name" style="background-color: var(--success-100); color: var(--success-700);">Health & Fitness</div> <span>$57</span></div>
+                <p class="card-text">Machine Learning A-Z™: Hands-On Python & R In Data...</p>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0</span></div>
+                  <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+              </div>
+               <div class="cart">
+                <div class="name-price"><div class="cat-card-name" style="background-color: var(--primary-100); color: var(--primary-700); margin-top: 20px;">DESIGN</div></div>
+                 <p class="card-text">2021 Complete Python Bootcamp From Zero to Hero in Python</p>
+                 <div class="user-rate"> 
+                    <div class="user"><img src="./Assets/my-user.jpeg" alt=""> <h6>Kevin Gilbert</h6></div>
+                    <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>5.0 (357,914)</span></div>
+                </div>
+                 <div class="icons-feature">
+                 <div><i class="fa-regular fa-user" style="color: var(--secondary-500);"></i>   <div class="students-number">265.7K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div></div>
+                 <div><i class="fa-solid fa-chart-column" style="color: var(--error-500);"></i>  Begginer</div>
+                 <div><i class="fa-regular fa-clock" style="color: var(--success-500);"></i> 6 hour</div>
+               </div>
+               <div class="discount">
+                <div class="discount"><span style="color: var(--grey-900); font-size: 18px; ">$14.00</span>
+                <span><del style="color: var(--grey-500); font-size: 14px; ">$26.00</del></span>
+                <div class="off-56">56% OFF</div></div>
+                <div><i class="fa-regular fa-heart" style="padding: 10px; background-color: var(--primary-100); color: var(--primary-500-main); margin-right: 10px; margin-bottom: 6px;"></i></div>
+               </div>
+               <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+
+               <div class="what-learn">
+                <p class="head">What you’ll learn</p>
+                <div class="learn-item"><i class="fa-solid fa-check"></i><p>Learn to use Python professionally, learning both Python 2 and Python 3!</p></div>
+                <div class="learn-item"><i class="fa-solid fa-check"></i><p>Create games with Python, like Tic Tac Toe and Blackjack!</p></div>
+                <div class="learn-item"><i class="fa-solid fa-check"></i><p>Create games with Python, like Tic Tac Toe and Blackjack!</p></div>
+               </div>
+               <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+             <div class="cart-btns">
+               <button class="cart-btn">
+                 <i class="fa-solid fa-cart-shopping"></i> Add To Cart
+               </button>
+               <button class="cart-btn">
+                Course Detail
+               </button>
+             </div>
+              </div>
+        </div>
+
+     </div>
+     <div class="browse"><button>Browse All Courses</button><i class="fa-solid fa-arrow-right" style="color: var(--primary-500-main) ;font-size: 20px; "></i></div>
+  
+
+</section>
+ 
+
+<section id="become-instructor">
+    <div class="two-parts-instructor">
+        <!-- --------- -->
+        <div class="left">
+          <div class="left-content">
+             <h2>Become an instructor</h2>
+             <p>Instructors from around the world teach millions of students on Udemy. We provide the tools and skills to teach what you love.</p>
+              <button class="teaching-btn">Start Teaching <i class="fa-solid fa-arrow-right" style="color: var(--primary-500-main) ;font-size: 20px; "></i></button>
+          </div>
+          
+             <img src="./Assets/instructor.png" alt="" >
+          
+        </div>
+        <!-- --------- -->
+        <div class="right">
+            <h2>Your teaching & earning steps</h2>
+            <div class="right-container">
+        <div class="right-item"> <span style="background-color: var(--secondary-100); color: var(--secondary-500);">1</span>  <div class="right-desc">Apply to become instructor</div></div>
+         <div class="right-item"> <span style="background-color: var(--primary-100); color: var(--primary-500-main);">2</span>  <div class="right-desc">Build & edit your profile</div></div> 
+          <div class="right-item"> <span style="background-color: var(--error-100); color: var(--error-400);">3</span>  <div class="right-desc">Create your new course</div></div> 
+           <div class="right-item"> <span style="background-color: var(--success-100); color: var(--success-500);">4</span>  <div class="right-desc">Start teaching & earning</div></div>  
+        
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="top-instructor">
+  <h2>Top instructor of the month</h2>
+   <div class="cards-container">
+        <div class="my-card">
+              <img src="./Assets/top-instructor1.jpeg" alt="..."  width="244px" height="244px">
+              <div class="my-card-body">
+                 <div class="instructor-name">
+                  Devon Lane
+                 </div>
+                 <div class="instructor-role">
+                  Senior Developer
+                 </div>
+                
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>4.6</span></div>
+                  <div class="students-number">854 <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+
+              </div>
+        </div>
+
+        <div class="my-card">
+              <img src="./Assets/top-instructor2.jpeg" alt="..."  width="244px" height="244px">
+              <div class="my-card-body">
+                 <div class="instructor-name">
+                     Darrell Steward
+                 </div>
+                 <div class="instructor-role">
+                      Digital Product Designer
+                 </div>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>4.9</span></div>
+                  <div class="students-number">451,444K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+
+              </div>
+        </div>
+         <div class="my-card">
+              <img src="./Assets/top-instructor3.jpeg" alt="..."  width="244px" height="244px">
+              <div class="my-card-body">
+                <div class="instructor-name">
+               Jane Cooper
+                 </div>
+                 <div class="instructor-role">
+               UI/UX Designer
+                 </div>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>4.8</span></div>
+                  <div class="students-number">435,671K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+
+              </div>
+        </div>
+         <div class="my-card">
+              <img src="./Assets/top-instructor4.jpeg" alt="..."  width="244px" height="244px">
+              <div class="my-card-body">
+                 <div class="instructor-name">
+                   Albert Flores
+                 </div>
+                 <div class="instructor-role">
+                   Adobe Instructor
+                 </div>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>4.7</span></div>
+                  <div class="students-number">511,123K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+
+              </div>
+        </div>
+         <div class="my-card">
+              <img src="./Assets/top-instructor5.jpeg" alt="..." width="244px" height="244px">
+              <div class="my-card-body">
+                <div class="instructor-name">
+                  Kathryn Murphy
+                 </div>
+                 <div class="instructor-role">
+                Lead Developer
+                 </div>
+                <hr style="background-color: var(--grey-100); height: 1px; border: none;">
+                <div class="rate-students-number">
+                  <div class="rate"><i class="fa-solid fa-star" style="color: var(--warning-500); font-size: 14px;"></i> <span>4.2</span></div>
+                  <div class="students-number">2,711K <span style="color: var(--grey-500); font-family: 300; font-size: 11px;">students</span></div>
+                </div>
+
+              </div>
+        </div>
+   </div>
+   <div style=" display: flex; justify-content: center; padding: 50px 0px; align-items: center;">
+    <div style="color: var(--grey-700); font-size: 15px;">Thousands of students waiting for a instructor. Start teaching & earning now!.</div>
+    <a href="#" style="padding-left: 20px; text-decoration: none; color: var(--primary-500-main);">Become Instructor <i class="fa-solid fa-arrow-right" style="color: var(--primary-500-main) ;font-size: 20px; "></i></a>
+  </div>
+</section>
+
+
+<section id="social-media">
+  <div class="social-two-parts">
+    <div class="left-content">
+        <h2>6.3k trusted companies</h2>
+        <p>Nullam egestas tellus at enim ornare tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+    </div>
+    <div class="right-social">
+          <div class="social-item" style="background-color: #fff; padding:13px;">
+            <img src="./Assets/netflix.png" alt="" style="padding-top: 40px;">
+          </div>
+           <div class="social-item" style="background-color: #fff; padding: 15px;">
+            <img src="./Assets/youtube.png" alt="" style="padding-top: 40px;">
+          </div>
+           <div class="social-item" style="background-color: #fff; padding: 15px;">
+            <img src="./Assets/google.png" alt="">
+          </div>
+           <div class="social-item" style="background-color: #fff; padding: 15px;">
+            <img src="./Assets/lenovo.png" alt="" style="padding-top: 40px;">
+          </div>
+           <div class="social-item" style="background-color: #fff; padding: 15px;">
+            <img src="./Assets/slack.png" alt="">
+          </div>
+           <div class="social-item" style="background-color: #fff; padding: 15px;">
+            <img src="./Assets/Company Logo (4).png" alt="">
+          </div>
+           <div class="social-item" style="background-color: #fff; padding: 15px;">
+            <img src="./Assets/lexmark.png" alt="">
+          </div>
+          <div class="social-item" style="background-color: #fff; padding: 15px;">
+            <img src="./Assets/microsoft.png" alt="">
+          </div>
+         
+    </div>
+  </div>
+</section>
+
+<section id="footer">
+  <div class="top">
+    <div class="left">
+      <p>Start learning with 67.1k students around the world.</p>
+      <div class="btns">
+        <button class="join-btn">Join The Family</button>
+      <button class="browse-footer">Browse All Courses</button>
+      </div>
+    </div>
+    <div class="right">
+      <div class="statistics">
+        <h2>6.3K</h2>
+        <p>Online courses</p>
+      </div>
+      <div class="statistics">
+        <h2>26k</h2>
+        <p>Certified Instructor</p>
+      </div>
+      <div class="statistics">
+        <h2>99.9%</h2>
+        <p>Sucess Rate</p>
+      </div>
+    </div>
+  </div>
+ <hr style="background-color:#363B4780; height: 1px; border: none;">
+ <!-- -------------------- -->
+
+
+
+  <div class="bottom">
+  <div class="bottom-left">
+<div class="logo"><img src="./Assets/GraduationCap.png" alt="" width="40px" height="40px"> <h1 style="color: var(--grey-white);"> E-tutor</h1></div>
+<p>Aliquam rhoncus ligula est, non pulvinar elit
+convallis nec. Donec mattis odio at.</p>
+  <div class="icons-footer">
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin-in"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-youtube"></i>
+  </div>
+  </div>
+  <div class="bottom-center">
+    <div class="info">
+      <h4>Top 4 Category</h4>
+      <ul>
+        <li>Development</li>
+        <li>Finance & Accounting</li>
+        <li>Design</li>
+        <li>Business</li>
+      </ul>
+    </div>
+    <div class="info">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="">About</a></li>
+        <li><a href="">Become Instructor <i class="fa-solid fa-arrow-right"></i></a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Career</a></li>
+      </ul></div>
+    <div class="info">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="">Help Center</a></li>
+        <li><a href="">FAQs</a></li>
+        <li><a href="">Terms & Condition</a></li>
+        <li><a href="">Privacy Policy</a></li>
+      </ul></div>
+  </div>
+
+   <div class="bottom-right">
+      <h4>Downlaod our app</h4>
+      <div class="apple">
+        <i class="fa-brands fa-apple"></i>
+        <div > <h5><a href="">Download now</a></h5>
+         <h3>App Store</h3></div>
+      </div>
+      <div class="play-store">
+        <img src="./Assets/google-play.png" alt="" width="20px">
+         <div><h5><a href="">Download now</a></h5>
+         <h3>Play Store</h3></div>
+      </div>
+   </div>
+  </div>
+  <!-- ---------------------------- -->
+    <hr style="background-color:#363B4780; height: 1px; border: none;">
+
+   <div class="copy-rights">
+    <div>© 2021 - Eduflex. Designed by <span style="color: var(--grey-white);">Mariam Emad</span>. All rights reserved</div>
+     <select name="language" id="language">
+      <option value="0">English</option>
+      <option value="1">Arabic</option>
+     </select>
+   </div>
+</section>
+
+    <script src="./JS/main.js"></script>
+</body>
+</html>
